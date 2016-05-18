@@ -390,11 +390,19 @@ span {
 
 .company-name {
   font-weight: 500;
-  font-size: 20px; }
+  font-size: 20px;
+  display: inline-block; }
+
+.company-date {
+  font-weight: 300;
+  font-size: 20px;
+  color: #575757; }
 
 .title {
+  font-weight: 700;
   font-size: 18px;
-  color: #575757; }
+  color: #575757;
+  font-style: italic; }
 
 p {
   color: #575757;
@@ -695,13 +703,21 @@ img {
 
 .company-left {
   float: left;
-  margin-left: 40px; }
+  margin: 60px 0 0 60px;
+  width: 50%; }
+  .company-left .title {
+    display: block;
+    margin-bottom: 40px; }
 
-.title {
-  display: block;
-  margin-bottom: 40px; }
+.company-right {
+  float: left;
+  margin: 60px 0 0 140px; }
+  .company-right .title {
+    display: block;
+    margin-bottom: 40px; }
 
-.company-name {
-  display: block; }
+.header-title {
+  float: right;
+  margin: 40px 40px 0 0; }
 
 /*# sourceMappingURL=style.css.map */
