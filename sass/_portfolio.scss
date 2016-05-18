@@ -1,4 +1,17 @@
 .header-title {
 	float: right;
-	margin: 40px 40px 0 0;
+	margin: 40px 40px 40px 0;
+}
+
+.gallery {
+	width: 1263px;
+	margin: 0 auto;
+}
+
+.thumb {
+	background-color: $red;
+	float: left;
+	height: 300px;
+	width: 421px;
+	
 }

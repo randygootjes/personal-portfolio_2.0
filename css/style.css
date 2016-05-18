@@ -675,7 +675,7 @@ a:active {
   .software h2 {
     cursor: pointer; }
 
-img {
+.image-container img {
   padding: 10px 40px; }
 
 .images {
@@ -718,6 +718,16 @@ img {
 
 .header-title {
   float: right;
-  margin: 40px 40px 0 0; }
+  margin: 40px 40px 40px 0; }
+
+.gallery {
+  width: 1263px;
+  margin: 0 auto; }
+
+.thumb {
+  background-color: #f15a5a;
+  float: left;
+  height: 300px;
+  width: 421px; }
 
 /*# sourceMappingURL=style.css.map */
