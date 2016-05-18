@@ -20,15 +20,23 @@
 
 .company-left {
 	float: left;
-	margin-left: 40px;
+	margin: 60px 0 0 60px;
+	width: 50%;
+	
+	.title {
+		display: block;
+		margin-bottom: 40px; 
+	}
 }
 
-.title {
-	display: block;
-	margin-bottom: 40px; 
-}
+.company-right {
+	float: left;
+	margin: 60px 0 0 140px;
+	
 
-.company-name {
-	display: block;
+	.title {
+		display: block;
+		margin-bottom: 40px; 
+	}
 }
 

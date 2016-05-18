@@ -39,14 +39,24 @@ span {
 	font-size: 36px;
 }
 
-.company-name{
+.company-name {
 	font-weight: 500;
 	font-size: 20px;
+	display: inline-block;
+}
+
+.company-date {
+	font-weight: 300;
+	font-size: 20px;
+	color: $dark-grey;
+	
 }
 
 .title {
+	font-weight: 700;
 	font-size: 18px;
 	color: $dark-grey;
+	font-style: italic;
 }
 
 p {
