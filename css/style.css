@@ -412,40 +412,49 @@ p {
 #home {
   background: url("../img/homebg.png");
   height: 654px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+body {
   width: 100%; }
 
-.header {
-  position: fixed;
-  text-align: center;
-  width: 100%;
-  min-height: 30px;
-  padding: 5px; }
+nav ul {
+  list-style: none;
+  margin: 15px;
+  padding: 0;
+  text-align: center; }
 
-.scrolling {
+nav ul li {
+  display: inline;
+  padding-top: 5%; }
+
+nav ul li a {
+  text-decoration: none;
+  margin: 5px 30px 3px 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none; }
+
+nav {
+  width: 100vw;
+  height: 44px;
+  background-color: transparent;
+  position: fixed;
+  color: #ffffff;
+  top: 0; }
+
+nav.hasBackground {
   background-color: #ffffff;
   color: #575757; }
+  nav.hasBackground a {
+    color: #575757; }
 
-ul {
-  margin: 0;
-  margin-top: 10px; }
-
-li {
-  list-style: none;
-  display: inline;
-  margin: 0px 40px 0; }
-
-a {
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: uppercase; }
-
-a:hover {
+nav ul li a:active,
+nav ul li a:hover {
   border-bottom: 4px solid #f15a5a;
-  padding-bottom: 2px; }
-
-a:active {
-  border-bottom: 4px solid #f15a5a;
-  padding-bottom: 2px; }
+  padding-bottom: 6px; }
 
 #about {
   display: block;
@@ -690,7 +699,9 @@ a:active {
 .quote-area {
   background: url("../img/bg-1.png");
   height: 200px;
-  width: 100%; }
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .quote-area h3 {
     text-align: center;
     padding-top: 70px; }

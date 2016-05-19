@@ -1,7 +1,9 @@
 .quote-area {
 	background: url("../img/bg-1.png");
 	height: 200px;
-	width: 100%;	
+	width: 100%;
+	background-size:cover;
+	background-repeat:no-repeat;
 
 	h3 {
 		text-align: center;
