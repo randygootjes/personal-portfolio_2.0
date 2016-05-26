@@ -170,11 +170,16 @@
                 
 
             </div>
-            <form class="form-right">    
-                <input name="name" type="text" class="input-names" placeholder="Name..." />   
-                <input name="email" type="text" class="input-names" placeholder="Email..." />
+            <form class="form-right" method="post" action="http://www.randygootjes.nl/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; document.charset = 'ISO-8859-1'; window.onbeforeunload = function () {document.charset=originalCharset;};">
+                <input name="name" type="text" class="input-names" placeholder="Name..."/>   
+                <input name="email" type="text" class="input-names" placeholder="Email..."/>
                 <textarea name="text" class="input-names" placeholder="Comment..."></textarea>
                 <input type="submit" value="SUBMIT"/>
+                <input type="hidden" name="recipient" value="info@randygootjes.nl"/>
+                <input type="hidden" name="subject" value="via randygootjes.nl"/>
+                <input type="hidden" name="redirect" value="http://www.randygootjes.nl/contact"/>
+                <input type="hidden" name="missing_fields_redirect" value="http://www.randygootjes.nl/contact"/>
+                <input type="hidden" name="required" value="name,email,text"/>
             </form>
             
           

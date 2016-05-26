@@ -415,9 +415,6 @@ p {
   font-size: 14px;
   text-transform: uppercase; }
 
-type {
-  font-weight: 300; }
-
 #home {
   background: url("../img/homebg.png");
   height: 654px;
@@ -444,7 +441,8 @@ nav ul li a {
   font-weight: 300;
   text-transform: uppercase;
   color: #ffffff;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 nav {
   width: 100vw;
