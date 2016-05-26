@@ -27,11 +27,14 @@ nav {
 	position: fixed;
 	color: $light;
 	top: 0;
+	z-index: 900;
 }
 
 nav.hasBackground {
 	background-color: $light;
 	color: $dark-grey;
+	-webkit-transition: 0.7s ease;
+	z-index: 999;
 	
 
 	a {
