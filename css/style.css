@@ -741,4 +741,14 @@ nav ul li a:hover {
   height: 300px;
   width: 421px; }
 
+footer {
+  background-color: #575757;
+  height: 80px;
+  width: 100%; }
+  footer p {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 35px 0 0 0; }
+
 /*# sourceMappingURL=style.css.map */
