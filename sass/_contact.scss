@@ -1,0 +1,61 @@
+#contact {
+	width: 100%;
+	height: 400px;
+
+	h2 {
+		margin: 30px 0 0 40px;
+	}
+}
+
+.form-left {
+	float: left;
+	width: 50%;
+
+	.linked-images {
+		margin: 10px 0 0 80px;
+
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
+.form-right {
+	float: left;
+	width: 50%;
+
+	.input-names{
+		background-color: transparent;
+		border: 1px solid $red;
+		transition: all 0.3s;
+		padding: 13px;
+		margin: 15px 0 0 10px;
+		width:70%;
+		box-sizing: border-box;
+		outline:0;
+
+	}
+}
+
+textarea {
+	height: 90px;
+	line-height: 150%;
+	resize:vertical;
+}
+
+[type="submit"] {
+  width: 70%;
+  background: $dark-grey;
+  border:0;
+  color: $light;
+  font-size: 24px;
+  padding: 10px 0 10px;
+  transition: all 0.3s;
+  margin: 5px 0 0 10px;
+  font-weight: 200;
+}
+
+[type="submit"]:hover { 
+	background:$red;
+	font-weight: 500; 
+}
